@@ -15,3 +15,7 @@ elif is_old or is_license:
   print('Please complete the left-over checks')
 else:
   print('You can\'t drive')
+
+# ternary in python
+message = 'You are older than 18.' if age >= 18 else 'You are younger than 18.'
+print(message)
