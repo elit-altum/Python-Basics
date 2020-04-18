@@ -3,7 +3,7 @@
 # the 'def' keyword tells python about function definition
 # values which fn uses are parameters and the actual values passed to fn are arguments
 
-def hello_msg(name = 'Darth Vader', age = '20'):
+def hello_msg(name = 'Darth Vader', age = '21'):
   print(f'Hello {name}! You are {age}.')
 
 # as python interprets line by line, fn call should be after fn declaration always
@@ -17,7 +17,7 @@ print(hello_msg) # outputs memory address of fn
 hello_msg(age = 23, name = 'Chaman') # order doesn't matter
 
 # default argument values
-hello_msg()
+hello_msg(age = 23)
 
 # functions can also be nested
 def add_values():

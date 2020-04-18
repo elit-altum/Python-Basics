@@ -17,7 +17,7 @@ for index, item in enumerate(my_set):
   print(index, item)
 
 # using range for a list of number
-numbers = list(range(2, 100))
+numbers = list(range(2, 10))
 
 for index, number in enumerate(numbers):
   if number == 50:
