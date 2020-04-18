@@ -20,6 +20,4 @@ def sum_func(*args, **kwargs):
     positional_sum += value
   
   print('The final sum is: ',positional_sum)
-
-
 sum_func(1,2,3,4, n1= 20, n2 = 30)
